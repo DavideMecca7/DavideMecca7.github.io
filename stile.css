@@ -7,20 +7,20 @@ body{
     text-align: center;
     color: white;
     width: 100%;
-    height: 120px;
+    height: 180px;
 }
 #sezione1{
     background-color: rgb(41, 41, 41);
     text-align: center;
     color: white;
     width: 100%;
-    height: 300px;
+    height: 420px;
 }
 #sezione2{
     background-color: #b8b8b8;
     color: white;
     width: 100%;
-    height: 450px;
+    height: 700px;
 }
 #sezione3{
     background-color: rgb(41, 41, 41);
@@ -29,4 +29,27 @@ body{
     width: 100%;
     height: 300px;
     
+}
+.title{
+       text-align: center; 
+       font-size:xx-large;
+}
+.textAc{
+    text-align: justify; 
+    font-size: larger; 
+    padding:50px;
+}
+.textA{
+    text-align:justify; 
+    color:white; 
+    margin:20px;
+}
+.in{
+    height: 40px;
+    width: auto;
+    text-align: center;
+    margin: 4px;
+}
+.button{
+    width:100%;
 }

@@ -1,5 +1,5 @@
-.conteiner{
-    background-color: rgb(41, 41, 41);
+#main{
+    background-color:gray;
     color:white;
     text-align: center;
     width: auto;
@@ -27,4 +27,9 @@ h1{
 }
 .title{
     font-size: x-large;
+}
+footer{
+    background-color:  rgb(41, 41, 41);
+    text-align: center;
+    color: white;
 }

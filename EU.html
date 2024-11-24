@@ -11,7 +11,6 @@
         }
 
         header {
-            background-color: #4CAF50;
             color: white;
             padding: 20px 0;
             text-align: center;
@@ -49,7 +48,7 @@
         }
 
         .goals h2 {
-            color: #4CAF50;
+            color: #333;
         }
 
         .goals ul {
@@ -86,16 +85,35 @@
             color: white;
             text-align: center;
             padding: 10px 0;
-            position: fixed;
             bottom: 0;
             width: 100%;
         }
+        .in{
+                height: 40px;
+                width: auto;
+                text-align: center;
+                margin: 4px;
+            }
     </style>
 </head>
 <body>
 
 <header>
-    <h1>Next Generation EU</h1>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="index.html" style="font-size: xx-large;">Next Generation</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="navbar-collapse collapse show" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item"><a class="nav-link" href="chisono.html">Chi sono</a></li>
+              <li class="nav-item"><a class="nav-link" href="accademia.html" >Il mio sport</a></li>
+              <li class="nav-item"><a class="nav-link" href="progetti.html" >Progetti</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 </header>
 
 <div class="container">
@@ -136,7 +154,7 @@
                         Concentrandosi su sei settori chiave, i progetti di investimento NextGenerationEU sono concepiti per:</p><br>
                 </div>
                 <div class="col-6">
-                    <img src="NextGeneration.png" alt="Progetti Next Generation EU">
+                    <img src="NextGeneration.png" alt="Progetti Next Generation EU" title="Next Generation">
                 </div>
             </div>
         </div>
@@ -152,6 +170,24 @@
 </div>
 
 <footer>
+    <div class="conteiner">
+        <p class="title">CONTATTI</p>
+        <div class="row">
+                <div class="col-4">
+                    <p style="color:white">EMAIL</p><br>
+                    <button class="btn btn-secondary"><a href="mailto:davide.mecca10@gmail.com" style="color:white">davide.mecca10@gmail.com</a></button>
+                </div>
+                <div class="col-4">
+                    <p style="color:white">CELLULARE</p><br>
+                    <button class="btn btn-secondary"><a href="tel:+393791376527" style="color:white">3791376527</a></button>
+                </div>
+                <div class="col-3">
+                    <p style="color:white">SOCIAL</p><br>
+                    <a href="https://www.instagram.com/davidemeccaa?igsh=dGwzanJwNGs1bGhk" target="_blank"><img src="instagram.io" alt="instagram" title="Instagram" class="in"></a>
+                    <a href="https://github.com/DavideMecca7" target="_blank"><img src="github.png" alt="github" title="github" class="in"></a>
+                </div>
+            </div>
+        </div>
     <p class=copyrait>&copy Davide Mecca</p>
 </footer>
 
